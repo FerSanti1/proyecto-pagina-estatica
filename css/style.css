@@ -1,0 +1,220 @@
+html {
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  display:flex;
+  box-sizing: content-box;
+  height: 115px;
+}
+
+
+.contenedor-menu {
+  display: flex;
+  margin: 0px;
+  border: none;
+  padding: 1%;
+  border-radius: 8px;
+  background: #ffc802;
+  box-shadow:  25px 25px 59px #665000,
+             -25px -25px 59px #9a7802;
+}
+
+.separador {
+  margin-top: 60px;
+  text-align: center;
+}
+
+h3 {
+  
+  border: 0;
+  font-size: 25px;
+}
+
+
+.contenedor-marcas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+#img-marca {
+  width: 380px;
+}
+
+
+body {
+  position: relative;
+  color: white;
+  text-decoration: #ffffff;
+  background: #000000;
+  box-shadow:  -32px 32px 64px #130f02,
+             32px -32px 64px #161306;
+}
+
+.contenedor-video {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .contenedor-video {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .contenedor-video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+.titulo {
+  color: black;
+  display: flex;
+  margin:auto;
+  border: none;
+  padding: 15px 5px 1px 100px;
+  text-align: justify;
+}
+
+.subtitulo {
+  color: black;
+  display: flex;
+  margin:auto;
+  border: none;
+  padding: 5px 5px 1px 100px;
+  text-align: justify;
+  width: 2%;
+  font-size: 15px;
+  justify-content: flex-end;
+}
+
+.logotipo {
+    display: flex;
+    justify-content:space-between;
+    align-items:end;
+    border: none;
+    margin: none;
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+  color: black;
+  list-style: none;
+  font-size: medium;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 8px;
+  background: #ffc809;
+  box-shadow:  25px 25px 59px #665000,
+             -25px -25px 59px #ffff00;
+}
+
+
+.info-balanceo {
+    display: flex;
+    justify-content: center;
+  }
+
+.image-1 {
+    font-size: medium;
+    height: 400px;
+    width: auto;
+}
+
+.contenedor-parrafo-balanceo {
+  width: 35%;
+  padding: 0%;
+  justify-items: center;
+}
+
+.info-balanceo p {
+  font-size: 25px;
+  width: 100%;
+  text-align: right;
+}
+
+.info-neumaticos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+  }
+
+.image-2 {
+    font-size: medium;
+    height: 400px;
+    width: auto;
+}
+.contenedor-parrafo-neumaticos {
+  width: 35%;
+  padding: 0%;
+  justify-items: center;
+}
+
+.info-neumaticos p {
+  font-size: 25px;
+  width: 100%;
+  justify-content: right;
+  text-align: right;
+}
+
+.info-otros-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+
+.image-3 {
+    font-size: medium;
+    height: 400px;
+    width: auto;
+}
+
+.contenedor-parrafo-serv {
+  width: 35%;
+  padding: 0%;
+  justify-items: center;
+}
+
+.info-otros-servicios p {
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  color: white;
+  font-size: small;
+}
+
