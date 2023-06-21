@@ -26,9 +26,8 @@ header {
 }
 
 h3 {
-  
   border: 0;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 
@@ -218,3 +217,33 @@ a {
   font-size: small;
 }
 
+/* Seccion Productos */
+
+.contenedor-productos {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.tabla-productos {
+  border-radius: 10%;
+  background-color: white;
+  color: black;
+}
+
+#contenedor-fila-producto {
+  padding: 15px;
+}
+
+#img-producto {
+  background-color: white;
+  width: 180px;
+}
+
+#img-producto-toyo-tires {
+  background-color: white;
+  width: 180px;
+  height: 220px;
+}
