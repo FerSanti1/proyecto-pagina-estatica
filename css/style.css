@@ -247,3 +247,21 @@ a {
   width: 180px;
   height: 220px;
 }
+
+/* Sección Contacto */
+
+.contenedor-mapa {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.logo-wpp {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+}
