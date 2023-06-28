@@ -266,3 +266,22 @@ h2 {
   bottom: 20px;
   right: 10px;
 }
+
+/* Sección Quienes Somos*/
+
+.contenedor-info-quienes-somos {
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.tabla-info {
+  background-color: none;
+  color: white;
+}
+
+p {
+  font-size: 18px;
+}
